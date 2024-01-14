@@ -1,6 +1,6 @@
 # Vuejs-Django-App
 
-Simple Employee Management Tools made by Vuejs and Django (REST-API-FRAMEWORK)
+Simple Employee Management Portal made by Vuejs and Django (REST-API-FRAMEWORK)
 
 ## Overview
 
