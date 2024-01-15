@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="table-responsive">
         <button type="button" class="btn btn-primary m-2 fload-end" data-bs-toggle="modal" data-bs-target="#exampleModal"
             @click="addClick()">
             Add Employee
@@ -53,6 +53,7 @@
                 </tr>
             </tbody>
         </table>
+        <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
@@ -94,7 +95,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!--- End Modal -->
     </div>
 </template>
 
