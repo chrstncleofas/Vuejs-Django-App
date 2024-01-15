@@ -3,7 +3,7 @@ from rest_framework.parsers import JSONParser
 from django.http.response import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files.storage import default_storage
-from app.serializers import DepartmentSerializer,EmployeeSerializer
+from app.serializers import DepartmentSerializer, EmployeeSerializer
 
 @csrf_exempt
 def departmentApi(request,id=0):
